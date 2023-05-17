@@ -66,9 +66,9 @@ watch(page, async (newPage) => {
       <template v-for="(user, i) in allUsers" :key="i">
         <a-card>
           <template #actions>
-            <setting-outlined key="setting" />
-            <edit-outlined key="edit" />
-            <ellipsis-outlined key="ellipsis" />
+            <setting-outlined />
+            <edit-outlined />
+            <ellipsis-outlined />
           </template>
           <a-card-meta :title="user.name.first" :description="user.email">
             <template #avatar>
